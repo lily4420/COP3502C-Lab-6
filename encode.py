@@ -10,7 +10,7 @@ def menu():
 def main():
   end_program = False
     while end_program == False:
-      print(menu())\n",
+      print(menu())
       user_input = int(input('Please enter an option: ')
       if user_input == 1:
         user_password = input('Please enter your password to encode: ')
@@ -20,10 +20,10 @@ def main():
 
 def encode(password):
   encoded_password = ''
-    for i in password:\n",
-      i = int(i) + 3\n",
-      encoded_password += str(i)\n",
-  return encoded_password\n",
+    for i in password:
+      i = int(i) + 3
+      encoded_password += str(i)
+  return encoded_password
 
 
 
